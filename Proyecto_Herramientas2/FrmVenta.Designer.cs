@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmVenta));
             this.cbProducto = new System.Windows.Forms.ComboBox();
             this.cbTransportadora = new System.Windows.Forms.ComboBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
@@ -49,135 +50,148 @@
             this.Ciudad_Destino = new System.Windows.Forms.ColumnHeader();
             this.Transportadora = new System.Windows.Forms.ColumnHeader();
             this.Cliente = new System.Windows.Forms.ColumnHeader();
-            this.Direccion = new System.Windows.Forms.ColumnHeader();
+            this.Dirección = new System.Windows.Forms.ColumnHeader();
             this.Usuario = new System.Windows.Forms.ColumnHeader();
             this.btnModificarVenta = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.logo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
             // 
             // cbProducto
             // 
             this.cbProducto.FormattingEnabled = true;
-            this.cbProducto.Location = new System.Drawing.Point(181, 113);
+            this.cbProducto.Location = new System.Drawing.Point(591, 88);
             this.cbProducto.Name = "cbProducto";
             this.cbProducto.Size = new System.Drawing.Size(121, 23);
-            this.cbProducto.TabIndex = 0;
+            this.cbProducto.TabIndex = 4;
             // 
             // cbTransportadora
             // 
             this.cbTransportadora.FormattingEnabled = true;
-            this.cbTransportadora.Location = new System.Drawing.Point(181, 206);
+            this.cbTransportadora.Location = new System.Drawing.Point(591, 163);
             this.cbTransportadora.Name = "cbTransportadora";
             this.cbTransportadora.Size = new System.Drawing.Size(121, 23);
-            this.cbTransportadora.TabIndex = 1;
+            this.cbTransportadora.TabIndex = 6;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(181, 160);
+            this.txtPrecio.Location = new System.Drawing.Point(591, 126);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(121, 23);
-            this.txtPrecio.TabIndex = 2;
+            this.txtPrecio.TabIndex = 5;
             // 
             // txtCiudadDestino
             // 
-            this.txtCiudadDestino.Location = new System.Drawing.Point(181, 261);
+            this.txtCiudadDestino.Location = new System.Drawing.Point(591, 200);
             this.txtCiudadDestino.Name = "txtCiudadDestino";
             this.txtCiudadDestino.Size = new System.Drawing.Size(121, 23);
-            this.txtCiudadDestino.TabIndex = 3;
+            this.txtCiudadDestino.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(63, 121);
+            this.label1.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(473, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 15);
+            this.label1.Size = new System.Drawing.Size(67, 18);
             this.label1.TabIndex = 4;
             this.label1.Text = "Producto";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(63, 163);
+            this.label2.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(473, 126);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 15);
+            this.label2.Size = new System.Drawing.Size(50, 18);
             this.label2.TabIndex = 5;
             this.label2.Text = "Precio";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(63, 269);
+            this.label3.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(473, 200);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 15);
+            this.label3.Size = new System.Drawing.Size(108, 18);
             this.label3.TabIndex = 6;
             this.label3.Text = "Ciudad Destino";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(63, 209);
+            this.label4.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(473, 163);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 15);
+            this.label4.Size = new System.Drawing.Size(109, 18);
             this.label4.TabIndex = 7;
             this.label4.Text = "Transportadora";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(442, 121);
+            this.label5.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(66, 200);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 15);
+            this.label5.Size = new System.Drawing.Size(112, 18);
             this.label5.TabIndex = 8;
             this.label5.Text = "Nombre Cliente";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(442, 168);
+            this.label6.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(66, 237);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 15);
+            this.label6.Size = new System.Drawing.Size(70, 18);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Direccion";
+            this.label6.Text = "Dirección";
             // 
             // txtCliente
             // 
-            this.txtCliente.Location = new System.Drawing.Point(566, 118);
+            this.txtCliente.Location = new System.Drawing.Point(199, 200);
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(121, 23);
-            this.txtCliente.TabIndex = 10;
+            this.txtCliente.TabIndex = 1;
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(566, 160);
+            this.txtDireccion.Location = new System.Drawing.Point(199, 237);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(121, 23);
-            this.txtDireccion.TabIndex = 11;
+            this.txtDireccion.TabIndex = 2;
+            this.txtDireccion.TextChanged += new System.EventHandler(this.txtDireccion_TextChanged);
             // 
             // btnCrearVenta
             // 
-            this.btnCrearVenta.Location = new System.Drawing.Point(314, 348);
+            this.btnCrearVenta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCrearVenta.BackgroundImage")));
+            this.btnCrearVenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCrearVenta.Location = new System.Drawing.Point(515, 274);
             this.btnCrearVenta.Name = "btnCrearVenta";
-            this.btnCrearVenta.Size = new System.Drawing.Size(121, 34);
-            this.btnCrearVenta.TabIndex = 12;
-            this.btnCrearVenta.Text = "Crear Venta";
+            this.btnCrearVenta.Size = new System.Drawing.Size(35, 35);
+            this.btnCrearVenta.TabIndex = 8;
             this.btnCrearVenta.UseVisualStyleBackColor = true;
             this.btnCrearVenta.Click += new System.EventHandler(this.btnCrearVenta_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(442, 214);
+            this.label7.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(66, 274);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 15);
+            this.label7.Size = new System.Drawing.Size(126, 18);
             this.label7.TabIndex = 13;
             this.label7.Text = "Usuario Vendedor";
             // 
             // txtUsuarioVendedor
             // 
-            this.txtUsuarioVendedor.Location = new System.Drawing.Point(566, 206);
+            this.txtUsuarioVendedor.Location = new System.Drawing.Point(199, 274);
             this.txtUsuarioVendedor.Name = "txtUsuarioVendedor";
             this.txtUsuarioVendedor.Size = new System.Drawing.Size(121, 23);
-            this.txtUsuarioVendedor.TabIndex = 14;
+            this.txtUsuarioVendedor.TabIndex = 3;
+            this.txtUsuarioVendedor.TextChanged += new System.EventHandler(this.txtUsuarioVendedor_TextChanged);
             // 
             // listvwVenta
             // 
@@ -188,16 +202,16 @@
             this.Ciudad_Destino,
             this.Transportadora,
             this.Cliente,
-            this.Direccion,
+            this.Dirección,
             this.Usuario});
             this.listvwVenta.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.listvwVenta.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.listvwVenta.FullRowSelect = true;
             this.listvwVenta.GridLines = true;
             this.listvwVenta.HideSelection = false;
-            this.listvwVenta.Location = new System.Drawing.Point(35, 452);
+            this.listvwVenta.Location = new System.Drawing.Point(35, 359);
             this.listvwVenta.Name = "listvwVenta";
-            this.listvwVenta.Size = new System.Drawing.Size(722, 163);
+            this.listvwVenta.Size = new System.Drawing.Size(722, 199);
             this.listvwVenta.TabIndex = 15;
             this.listvwVenta.TileSize = new System.Drawing.Size(5, 10);
             this.listvwVenta.UseCompatibleStateImageBehavior = false;
@@ -233,11 +247,11 @@
             this.Cliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Cliente.Width = 100;
             // 
-            // Direccion
+            // Dirección
             // 
-            this.Direccion.Text = "Direccion";
-            this.Direccion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Direccion.Width = 100;
+            this.Dirección.Text = "Direccion";
+            this.Dirección.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Dirección.Width = 100;
             // 
             // Usuario
             // 
@@ -247,29 +261,56 @@
             // 
             // btnModificarVenta
             // 
-            this.btnModificarVenta.Location = new System.Drawing.Point(477, 348);
+            this.btnModificarVenta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnModificarVenta.BackgroundImage")));
+            this.btnModificarVenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnModificarVenta.Location = new System.Drawing.Point(599, 274);
             this.btnModificarVenta.Name = "btnModificarVenta";
-            this.btnModificarVenta.Size = new System.Drawing.Size(121, 34);
-            this.btnModificarVenta.TabIndex = 16;
-            this.btnModificarVenta.Text = "Modificar Venta";
+            this.btnModificarVenta.Size = new System.Drawing.Size(35, 35);
+            this.btnModificarVenta.TabIndex = 9;
             this.btnModificarVenta.UseVisualStyleBackColor = true;
             this.btnModificarVenta.Click += new System.EventHandler(this.btnModificarVenta_Click);
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(636, 348);
+            this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
+            this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnEliminar.Location = new System.Drawing.Point(677, 274);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(121, 34);
-            this.btnEliminar.TabIndex = 17;
-            this.btnEliminar.Text = "Eliminar Venta";
+            this.btnEliminar.Size = new System.Drawing.Size(35, 35);
+            this.btnEliminar.TabIndex = 10;
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSalir.Location = new System.Drawing.Point(370, 592);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(30, 30);
+            this.btnSalir.TabIndex = 11;
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // logo
+            // 
+            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
+            this.logo.Location = new System.Drawing.Point(87, 45);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(190, 100);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logo.TabIndex = 19;
+            this.logo.TabStop = false;
             // 
             // FrmVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(791, 654);
+            this.Controls.Add(this.logo);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificarVenta);
             this.Controls.Add(this.listvwVenta);
@@ -290,10 +331,12 @@
             this.Controls.Add(this.cbProducto);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmVenta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modulo Ventas";
             this.Load += new System.EventHandler(this.FrmVenta_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -322,9 +365,11 @@
         private System.Windows.Forms.ColumnHeader Ciudad_Destino;
         private System.Windows.Forms.ColumnHeader Transportadora;
         private System.Windows.Forms.ColumnHeader Cliente;
-        private System.Windows.Forms.ColumnHeader Direccion;
+        private System.Windows.Forms.ColumnHeader Dirección;
         private System.Windows.Forms.ColumnHeader Usuario;
         private System.Windows.Forms.Button btnModificarVenta;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.PictureBox logo;
     }
 }

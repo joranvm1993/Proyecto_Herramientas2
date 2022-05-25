@@ -1,0 +1,10 @@
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\bin\Debug\netcoreapp3.1\Entidades.deps.json
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\bin\Debug\netcoreapp3.1\Entidades.dll
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\bin\Debug\netcoreapp3.1\Entidades.pdb
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\obj\Debug\netcoreapp3.1\Entidades.csproj.AssemblyReference.cache
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\obj\Debug\netcoreapp3.1\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfoInputs.cache
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\obj\Debug\netcoreapp3.1\Entidades.AssemblyInfo.cs
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\obj\Debug\netcoreapp3.1\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\obj\Debug\netcoreapp3.1\Entidades.dll
+C:\Users\mafeh\Documents\GitHub\Proyecto_Herramientas2\Entidades\obj\Debug\netcoreapp3.1\Entidades.pdb

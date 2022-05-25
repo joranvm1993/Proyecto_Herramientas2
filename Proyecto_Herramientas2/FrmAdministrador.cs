@@ -45,5 +45,15 @@ namespace Proyecto_Herramientas2
             AbrirFormHijo(new FrmPermisos());
         }
         #endregion
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            //Salir de la app (confirmación de salida)
+            if (MessageBox.Show("¿Deseas salir?", "Confirma salida", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+               Application.Exit();
+            }
+            
+        }
     }
 }
